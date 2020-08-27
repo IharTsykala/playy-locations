@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'SctoGroteskA';
+  src: url('SctoGroteskA/SctoGroteskA-Bold.eot');
+  src: url('SctoGroteskA/SctoGroteskA-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('SctoGroteskA/SctoGroteskA-Bold.svg#SctoGroteskA-Bold') format('svg'),
+    url('SctoGroteskA/SctoGroteskA-Bold.ttf') format('truetype'),
+    url('SctoGroteskA/SctoGroteskA-Bold.woff') format('woff'),
+    url('SctoGroteskA/SctoGroteskA-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SctoGroteskA';
+  src: url('SctoGroteskA/SctoGroteskA-Medium.eot');
+  src: url('SctoGroteskA/SctoGroteskA-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('SctoGroteskA/SctoGroteskA-Medium.svg#SctoGroteskA-Medium')
+      format('svg'),
+    url('SctoGroteskA/SctoGroteskA-Medium.ttf') format('truetype'),
+    url('SctoGroteskA/SctoGroteskA-Medium.woff') format('woff'),
+    url('SctoGroteskA/SctoGroteskA-Medium.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SctoGroteskA';
+  src: url('SctoGroteskA/SctoGroteskA-Regular.eot');
+  src: url('SctoGroteskA/SctoGroteskA-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('SctoGroteskA/SctoGroteskA-Regular.svg#SctoGroteskA-Regular')
+      format('svg'),
+    url('SctoGroteskA/SctoGroteskA-Regular.ttf') format('truetype'),
+    url('SctoGroteskA/SctoGroteskA-Regular.woff') format('woff'),
+    url('SctoGroteskA/SctoGroteskA-Regular.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}

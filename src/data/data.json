@@ -1,0 +1,170 @@
+{
+  "initiatives": [
+    {
+      "id": "1",
+      "src": "../assets/images/initiatives/cultureManual.jpg",
+      "title": "culture manual",
+      "meta": "cutlure & on boarding",
+      "year": "©2019",
+      "body": "To help strengthen our culture and attract world class talent, we created the Culture Manual – an online guide for new hires that differentiates the employee onboarding process and builds alignment for our collective future.",
+      "url": "/culturemanual/"
+    },
+    {
+      "id": "2",
+      "src": "../assets/images/initiatives/decode.jpg",
+      "title": "decode",
+      "meta": "decoding trends",
+      "year": "©2019",
+      "body": "What does this disruption bring on the table for the marketers? Are they able to cash in on this opportunity or face their own set of challenges, given the power that comes vested with the virtual consumer today?",
+      "url": "/decode/"
+    },
+    {
+      "id": "3",
+      "src": "../assets/images/initiatives/thinking.jpg",
+      "title": "Thinking",
+      "meta": "our views",
+      "year": "©2012",
+      "body": "For a consistent and well-informed brand, we aim to outline a strategy to determine what we’re selling, how we engage advocates, and who our customers are. This way, we express our brand and communicate with our audience. ",
+      "url": "/innovationlab/"
+    },
+    {
+      "id": "4",
+      "src": "../assets/images/initiatives/curated.jpg",
+      "title": "currated",
+      "meta": "collaborating with young founders",
+      "year": "©2012",
+      "body": "our never-ending love for art connects us with various artists across the globe, and we dwell into the fascinating world of these artists and their views to spread the culture.",
+      "url": "/innovationlab/"
+    },
+    {
+      "id": "5",
+      "src": "../assets/images/initiatives/innovationLab.jpg",
+      "title": "collaborating with young founders",
+      "meta": "decoding trends",
+      "year": "©2012",
+      "body": "We invest in founders with passion and heart, building tech-driven, industry-shaping businesses all over. Most of us are founders who have built market-defining companies ourselves. We are addicted to helping other exceptional founders do the same.",
+      "url": "/innovationlab/"
+    }
+  ],
+  "initiativeLink": [
+    {
+      "id": "1",
+      "text": "initiatives",
+      "url": "/initiatives/"
+    }
+  ],
+  "Links": [
+    {
+      "id": "1",
+      "text": "videobox",
+      "url": "/videobox/"
+    },
+    {
+      "id": "2",
+      "text": "thinking",
+      "url": "/thinking/"
+    },
+    {
+      "id": "3",
+      "text": "news",
+      "url": "/news/"
+    },
+    {
+      "id": "4",
+      "text": "about",
+      "url": "/about/"
+    },
+    {
+      "id": "5",
+      "text": "careers",
+      "url": "/careers/"
+    },
+    {
+      "id": "6",
+      "text": "contact",
+      "url": "/contact/"
+    }
+  ],
+  "contact": [
+    {
+      "title": "Contact",
+      "src": "../assets/images/contact/Contact-Header.jpg",
+      "secretdescription": "Interested in learning more about our work with Mitsubishi, Siemens, UBS bank, and legrand? We'd love to hear about your challenges and discuss how we can help.",
+      "copyright1": " Easy to understand.",
+      "copyright2": " VIDEO STORIES FOR BUSINESS.™",
+      "year": "PLāYY®, inc 15 - 20©",
+      "newbusiness": "new business",
+      "newbusinessmail": "biz@playy.co",
+      "general": "general",
+      "generalmail": "hi@playy.co",
+      "press": "press",
+      "pressmail": "press@playy.co",
+      "join": "join us",
+      "joinusmail": "recruitment@playy.co",
+      "applynow": "apply now"
+    }
+  ],
+  "offices": [
+    {
+      "id": "1",
+      "location": "Mumbai (HQ)",
+      "src": "../assets/images/contact/mumbai.jpg",
+      "timezone": "+5:30",
+      "addressline1": "III Floor Krishna Bhavan,",
+      "addressline2": "Talmiki Road, Santacruz(West), Mumbai",
+      "telephone": "+91 22 26403403",
+      "latlong": "19°04'51.0N, 72°49'52.2 E",
+      "maplink": "https://goo.gl/maps/1o2eDebrRcgvaQo3A"
+    },
+    {
+      "id": "2",
+      "location": "Dubai",
+      "src": "../assets/images/contact/dubai.jpg",
+      "timezone": "+4:00 ",
+      "address": "4002 Mazaya Business Avenue,",
+      "addressline1": "4002 Mazaya Business Avenue,",
+      "addressline2": "Tower BB2, Jumeirah Lakes Towers, Dubai",
+      "telephone": "+971 4 4572332",
+      "latlong": "19°04'51.0N, 72°49'52.2 E",
+      "maplink": "https://goo.gl/maps/1o2eDebrRcgvaQo3A"
+    },
+    {
+      "id": "3",
+      "location": "New York",
+      "src": "../assets/images/contact/newyork.jpg",
+      "timezone": "-4:00 ",
+      "addressline1": "126 Dudley Street, Suite 219,",
+      "addressline2": "Jersey City, New Jersey 07302, ",
+      "telephone": " +1 585 729 7853",
+      "latlong": "19°04'51.0N, 72°49'52.2 E",
+      "maplink": "https://goo.gl/maps/1o2eDebrRcgvaQo3A"
+    }
+  ],
+  "SocialLinks": [
+    {
+      "id": 1,
+      "text": "Instagram",
+      "url": "https://www.instagram.com"
+    },
+    {
+      "id": 2,
+      "text": "Twitter",
+      "url": "https://www.twitter.com"
+    },
+    {
+      "id": 3,
+      "text": "Linkedin",
+      "url": "https://www.linkedin.com"
+    },
+    {
+      "id": 4,
+      "text": "Facebook",
+      "url": "https://www.facebook.com"
+    }
+  ],
+  "About": [
+    {
+      "description": "PLāYY® is a video knowledge hub creation & digital experience design innovation company working at the crossway of culture, design, and technology. We love our craft, have a deep passion for evolution, and we exist to solve challenges for business we believe in our mission to do great work and to have a great time doing"
+    }
+  ]
+}

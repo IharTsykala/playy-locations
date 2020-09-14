@@ -1,7 +1,11 @@
-import React, { useState } from 'react'
-import { motion } from 'framer-motion'
+import React, { useState, useEffect, useContext } from 'react'
 import { graphql } from 'gatsby'
+import { ThemeProvider } from 'styled-components'
+import Context from '../../context/context'
 import SingleAccordian from './singleAccordian'
+import { setTheme, setNameTheme } from '../../context/themes/themes.action'
+import themes from '../../services/themes'
+
 import {
   Section,
   TopBar,
@@ -63,6 +67,44 @@ export const DepartmentsData = [
   },
 ]
 
+const ThemesBlock = ({ themesState, dispatch }) => {
+  const handleToggleTheme = nameTheme => {
+    // eslint-disable-next-line no-unused-expressions,no-sequences
+    dispatch(setTheme(themes[nameTheme])),
+      dispatch(setNameTheme(nameTheme)),
+      localStorage.setItem('currentTheme', JSON.stringify(themes[nameTheme])),
+      localStorage.setItem('nameCurrentTheme', nameTheme)
+  }
+  return (
+    <TopBarLi>
+      <RadioButton
+        className={` ${
+          themesState.nameCurrentTheme === 'dark' ? 'isChecked' : ''
+        }`}
+        onClick={() => handleToggleTheme('dark')}
+      >
+        dark
+      </RadioButton>
+      <RadioButton
+        className={` ${
+          themesState.nameCurrentTheme === 'light' ? 'isChecked' : ''
+        }`}
+        onClick={() => handleToggleTheme('light')}
+      >
+        light
+      </RadioButton>
+      <RadioButton
+        className={` ${
+          themesState.nameCurrentTheme === 'custom' ? 'isChecked' : ''
+        }`}
+        onClick={() => handleToggleTheme('custom')}
+      >
+        custom
+      </RadioButton>
+    </TopBarLi>
+  )
+}
+
 const Locations = () => {
   const [condition, setCondition] = useState(false)
   return LocationsData.map(location => (
@@ -78,8 +120,8 @@ const Locations = () => {
 }
 
 const Departments = () => {
-  return DepartmentsData.map((department, index) => (
-    <SingleAccordian key={index} department={department} />
+  return DepartmentsData.map(department => (
+    <SingleAccordian key={department.id} department={department} />
   ))
 }
 const variants = {
@@ -104,19 +146,25 @@ const cardVariants = {
 }
 
 const Accordian = ({ data }) => {
+  const { themesState, dispatch } = useContext(Context)
   return (
-    <Section>
-      <TopBar>
-        <TopBarUl>
-          <Locations />
-        </TopBarUl>
-      </TopBar>
-      <Content>
-        <ContentUl>
-          <Departments />
-        </ContentUl>
-      </Content>
-    </Section>
+    <ThemeProvider theme={themesState.currentTheme}>
+      <Section>
+        <TopBar>
+          <TopBarUl>
+            <ThemesBlock themesState={themesState} dispatch={dispatch} />
+          </TopBarUl>
+          <TopBarUl>
+            <Locations />
+          </TopBarUl>
+        </TopBar>
+        <Content>
+          <ContentUl>
+            <Departments />
+          </ContentUl>
+        </Content>
+      </Section>
+    </ThemeProvider>
   )
 }
 export const query = graphql`

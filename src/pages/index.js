@@ -1,12 +1,15 @@
 import React from 'react'
 import Accordian from './accordian'
 import { GlobalStyle } from '../styles/base'
+import GlobalStateProvider from '../context/globalStateProvider'
 
 const index = () => {
   return (
     <>
-      <GlobalStyle />
-      <Accordian />
+      <GlobalStateProvider>
+        <GlobalStyle />
+        <Accordian />
+      </GlobalStateProvider>
     </>
   )
 }

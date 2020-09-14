@@ -26,6 +26,8 @@ export const Section = styled(motion.section)`
     css`
       margin-top: 0;
     `}
+  background: ${props => props.theme.background};
+  color: ${props => props.theme.text};
 `
 export const TopBar = styled.div`
   position: relative;
